@@ -1,0 +1,70 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+section:not(:first-of-type) {
+    padding: 1rem;
+}
+
+h2 {
+    padding: 1rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    color: #505050;
+}
+
+#home p,
+#curriculum p {
+    margin: 0 auto;
+}
+
+.text-image {
+    max-height: 1.5rem;
+    width: auto;
+    height: auto;
+}
+
+#curriculum .card {
+    max-width: 512px;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+#curriculum .homework {
+    font-style: italic;
+    color: darkblue;
+}
+
+#setup .card-deck {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#setup img {
+    max-width: 100px;
+    margin: auto;
+}
+
+.payment {
+    font-weight: 600
+}
+
+.venmo {
+    color: cornflowerblue;
+}
+
+.paypal {
+    color: darkblue;
+}
+
+.zelle {
+    color: purple;
+}
